@@ -1,20 +1,11 @@
 
 # Projeto de Interface
+O Projeto de Interface tem como finalidade manter a estrutura do sistema de naveção pelos usuários e manter a interação entre aplicação e indivíduo, garantino uma naveção segura, clara, limpa, rápida e de fácil acesso, tudo isso alinhado aos objetivos do sistema. O projeto abrange o fluxo de navegação pelo usuário (User FLow) e a elaboração e aplicação dos wireframes da página. 
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+A construção das interfaces foi guiada pelos requisitos funcionais, não funcionais e histórias de usuário abordados nas Documentação de Especificação. Os wireframes apresentados a seguir demonstram como as funcionalidades foram distribuídas nas telas, priorizando a usabilidade, a coerência visual e a eficiência na execução das tarefas pelos usuários.
 
 ## User Flow
-
-![Exemplo de UserFlow](img/userflow.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+<img width="5680" height="5452" alt="User Flow Skill Tide" src="https://github.com/user-attachments/assets/6b9f5ce9-5e68-4ec7-b218-6615d860ee5b" />
 
 
 ## Wireframes
