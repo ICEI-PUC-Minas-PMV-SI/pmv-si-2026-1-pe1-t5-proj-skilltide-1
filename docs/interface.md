@@ -19,7 +19,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 | **Componente**               | **Requisitos Atendidos**                                                                 |
 |------------------------------|------------------------------------------------------------------------------------------|
-| **Tela de login**              | RF01:	Permitir cadastro de usuários no sistema.|
+| **Tela de login**              | RF01:	Permitir o cadastro de usuários no sistema.|
 
 ### Home page - Tela inicial
 
