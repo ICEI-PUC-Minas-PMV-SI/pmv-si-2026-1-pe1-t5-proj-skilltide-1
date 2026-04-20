@@ -6,39 +6,47 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
 
+## Perfis de Usuários
+
+Os perfis de usuários na plataforma são definidos por sua atuação dentro do sistema, podendo atuar como consumidores de serviços, prestadores ou voluntários, dependendo da necessidade e contexto.
+
+| **Dados**                    | **Descrição** |
+|------------------------------|----------------|
+| **Demográficos**             | Jovens e adultos de diferentes idades, incluindo pessoas em situação de vulnerabilidade social, trabalhadores autônomos e estudantes. |
+| **Uso do Produto**           | Utilizam a plataforma para buscar serviços acessíveis, oferecer habilidades profissionais ou atuar como voluntários em demandas sociais e comunitárias. |
+| **Psicográficos**            | Buscam acesso facilitado a serviços, geração de renda, ajuda comunitária e oportunidades de colaboração social. |
+| **Sentimento do Cliente**    | Precisam de soluções acessíveis e confiáveis para resolver problemas do dia a dia, além de oportunidades para divulgar ou oferecer seus serviços. |
+| **Tecnográficos**            | Utilizam principalmente smartphones, mas também podem acessar via desktop ou tablet. |
+| **Nível de conhecimento tecnológico** | Possuem desde conhecimento básico até intermediário em uso de plataformas digitais. |
+| **Necessidades**             | 1. Encontrar serviços acessíveis ou gratuitos. <br>2. Oferecer serviços e habilidades de forma simples. <br>3. Ter confiança e segurança nas transações. <br>4. Avaliar e ser avaliado para gerar credibilidade na plataforma. |
+
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Maria Aparecida tem 45 anos, trabalha como diarista e mora na periferia. Possui renda limitada e dificuldade para acessar serviços como manutenção doméstica, apoio psicológico e reforço escolar para seus filhos, ela utiliza o celular como principal meio de acesso à internet e busca soluções acessíveis e confiáveis para resolver problemas do dia a dia, seu principal objetivo é encontrar serviços com preço justo ou gratuito, com facilidade de acesso e segurança.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+João Carlos tem 30 anos e trabalha como eletricista autônomo. Ele busca aumentar sua renda oferecendo serviços a preços acessíveis para a comunidade, possui conhecimento técnico, mas tem dificuldade em divulgar seu trabalho e encontrar clientes de forma constante, seu objetivo é utilizar a plataforma para divulgar seus serviços, conseguir clientes e também participar de ações voluntárias.
+
+Ana tem 23 anos e é estudante universitária. Ela participa de projetos sociais e deseja oferecer serviços voluntários, principalmente na área de educação, seu objetivo é encontrar pessoas que precisam de ajuda e atuar como voluntária.
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+## Histórias de Usuários
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+| EU COMO...                | QUERO/PRECISO...                              | PARA...                                      |
+|--------------------------|-----------------------------------------------|----------------------------------------------|
+| Usuário                  | me cadastrar no sistema                       | acessar os serviços da plataforma           |
+| Usuário                  | buscar serviços por categoria                 | encontrar rapidamente o que preciso         |
+| Usuário                  | visualizar detalhes de um serviço             | entender melhor antes de solicitar          |
+| Usuário                  | solicitar um serviço                          | resolver uma necessidade específica         |
+| Prestador de serviço     | cadastrar meus serviços                       | oferecer meu trabalho                        |
+| Prestador de serviço     | criar um perfil                               | ser encontrado por clientes                 |
+| Voluntário              | oferecer serviços gratuitos                   | ajudar pessoas em situação de vulnerabilidade |
+| Usuário                  | avaliar serviços recebidos                    | ajudar outros usuários na escolha           |
+| Usuário                  | ver perfis de prestadores                    | escolher alguém confiável                   |
+| Usuário                  | ver sugestões de serviços                     | encontrar opções de interesse rapidamente   |
 
 ## Requisitos
 
@@ -46,55 +54,39 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Responsável | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF01| Permitir cadastro de usuários no sistema | Nome | arquivo.html |
-|RF02| Permitir cadastro de prestadores de serviços  | Nome | arquivo.html |
-|RF03| Permitir cadastro e descrição de serviços oferecidos | Nome | arquivo.html |
-|RF04| Permitir filtragem por categoria, valor do serviço e localidade | Nome | arquivo.html |
-|RF05| Permitir visualização detalhada dos serviços  | Nome | arquivo.html |
-|RF06| Permitir classificação entre serviço voluntário e remunerado | Nome | arquivo.html |
-|RF07| Permitir comunicação entre usuários dentro do sistema | Nome | arquivo.html |
-|RF08| Permitir solicitação de serviços | Nome | arquivo.html |
-|RF09| Permitir a visualização de perfis dos outros usuários da plataforma, incluindo suas habilidades, histórico de serviços prestados, e avaliações | Nome | arquivo.html |
-|RF10| Permitir tela inicial intuitiva que mostre sugestões de serviços do interesse do usuário | Nome | arquivo.html |
+| ID     | Descrição do Requisito                                                                 | Prioridade |
+|--------|----------------------------------------------------------------------------------------|------------|
+| RF-001 | A aplicação deve permitir o cadastro de usuários no sistema                          | ALTA       |
+| RF-002 | A aplicação deve permitir login por e-mail e senha                                    | ALTA       |
+| RF-003 | A aplicação deve permitir cadastro de serviços oferecidos pelos usuários             | ALTA       |
+| RF-004 | A aplicação deve permitir filtragem de serviços por categoria, preço e localização    | ALTA       |
+| RF-005 | A aplicação deve permitir visualização detalhada dos serviços                         | ALTA       |
+| RF-006 | A aplicação deve permitir classificação de serviços entre voluntário e remunerado     | ALTA       |
+| RF-007 | A aplicação deve permitir solicitação de serviços pelos usuários                      | ALTA       |
+| RF-008 | A aplicação deve permitir visualização de perfis de usuários e prestadores de serviço | ALTA       |
+| RF-009 | A aplicação deve permitir avaliação de serviços e usuários                            | ALTA       |
+| RF-010 | A aplicação deve exibir sugestões de serviços na página inicial                       | ALTA       |
 
 ### Requisitos Não Funcionais
 
-|ID    | Descrição do Requisito | Responsável | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RNF-01| A aplicação deve ser responsiva (funcionar em desktop e mobile) | Nome | arquivo.html |
-|RNF-02| O tempo de carregamento das páginas deve ser inferior a 15 segundos | Nome | arquivo.html |
-|RNF-03| A interface deve seguir princípios de usabilidade (navegação simples e intuitiva) | Nome | arquivo.html |
+| ID     | Descrição do Requisito                                                                 | Prioridade |
+|--------|----------------------------------------------------------------------------------------|------------|
+| RNF-001 | A aplicação deve ser responsiva, funcionando em dispositivos móveis e desktop         | ALTA       |
+| RNF-002 | A aplicação deve ter tempo de carregamento otimizado (até 15 segundos por página)     | ALTA       |
+| RNF-003 | A interface deve ser intuitiva e de fácil navegação                                   | ALTA       |
+| RNF-004 | A aplicação deve garantir boa legibilidade com uso adequado de cores e tipografia     | MÉDIA      |
+| RNF-005 | A aplicação deve manter consistência visual entre todas as telas                      | MÉDIA      |
+| RNF-006 | A aplicação deve garantir acessibilidade básica (contraste e leitura em diferentes dispositivos) | MÉDIA |
 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+| ID | Restrição |
+|----|-----------|
+| 01 | O projeto deverá ser entregue até o final do semestre |
+| 02 | O sistema será desenvolvido apenas em front-end |
+| 03 | Não haverá integração com banco de dados real |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
