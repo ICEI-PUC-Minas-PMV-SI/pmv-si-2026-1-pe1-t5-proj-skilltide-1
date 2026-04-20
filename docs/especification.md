@@ -46,18 +46,27 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+|ID    | Descrição do Requisito | Responsável | Artefato Criado |
+|------|------------------------|------------|-----------------|
+|RF01| Permitir cadastro de usuários no sistema | Nome | arquivo.html |
+|RF02| Permitir cadastro de prestadores de serviços  | Nome | arquivo.html |
+|RF03| Permitir cadastro e descrição de serviços oferecidos | Nome | arquivo.html |
+|RF04| Permitir filtragem por categoria, valor do serviço e localidade | Nome | arquivo.html |
+|RF05| Permitir visualização detalhada dos serviços  | Nome | arquivo.html |
+|RF06| Permitir classificação entre serviço voluntário e remunerado | Nome | arquivo.html |
+|RF07| Permitir comunicação entre usuários dentro do sistema | Nome | arquivo.html |
+|RF08| Permitir solicitação de serviços | Nome | arquivo.html |
+|RF09| Permitir a visualização de perfis dos outros usuários da plataforma, incluindo suas habilidades, histórico de serviços prestados, e avaliações | Nome | arquivo.html |
+|RF10| Permitir tela inicial intuitiva que mostre sugestões de serviços do interesse do usuário | Nome | arquivo.html |
 
+### Requisitos Não Funcionais
 
-### Requisitos não Funcionais
+|ID    | Descrição do Requisito | Responsável | Artefato Criado |
+|------|------------------------|------------|-----------------|
+|RNF-01| A aplicação deve ser responsiva (funcionar em desktop e mobile) | Nome | arquivo.html |
+|RNF-02| O tempo de carregamento das páginas deve ser inferior a 15 segundos | Nome | arquivo.html |
+|RNF-03| A interface deve seguir princípios de usabilidade (navegação simples e intuitiva) | Nome | arquivo.html |
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
