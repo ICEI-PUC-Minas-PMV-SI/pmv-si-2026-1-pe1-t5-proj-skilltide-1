@@ -22,17 +22,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 ## Histórias de Usuários
 
 | EU COMO...                | QUERO/PRECISO...                              | PARA...                                      |
-|--------------------------|-----------------------------------------------|----------------------------------------------|
-| Usuário                  | me cadastrar no sistema                       | acessar os serviços da plataforma           |
-| Usuário                  | buscar serviços por categoria                 | encontrar rapidamente o que preciso         |
-| Usuário                  | visualizar detalhes de um serviço             | entender melhor antes de solicitar          |
-| Usuário                  | solicitar um serviço                          | resolver uma necessidade específica         |
-| Prestador de serviço     | cadastrar meus serviços                       | oferecer meu trabalho                        |
-| Prestador de serviço     | criar um perfil                               | ser encontrado por clientes                 |
-| Voluntário              | oferecer serviços gratuitos                   | ajudar pessoas em situação de vulnerabilidade |
-| Usuário                  | avaliar serviços recebidos                    | ajudar outros usuários na escolha           |
-| Usuário                  | ver perfis de prestadores                    | escolher alguém confiável                   |
-| Usuário                  | ver sugestões de serviços                     | encontrar opções de interesse rapidamente   |
+|--------------------------|-----------------------------------------------|-----------------------------------------------|
+| Usuário                  | me cadastrar no sistema                       | acessar os serviços da plataforma             |
+| Usuário                  | buscar serviços por categoria                 | encontrar rapidamente o que preciso           |
+| Usuário                  | visualizar detalhes de um serviço             | entender melhor antes de solicitar            |
+| Usuário                  | solicitar um serviço                          | resolver uma necessidade específica           |
+| Prestador de serviço     | cadastrar meus serviços                       | oferecer meu trabalho                         |
+| Prestador de serviço     | criar um perfil                               | ser encontrado por clientes                   |
+| Voluntário               | oferecer serviços gratuitos                   | ajudar pessoas em situação de vulnerabilidade |
+| Usuário                  | avaliar serviços recebidos                    | ajudar outros usuários na escolha             |
+| Usuário                  | ver perfis de prestadores                     | escolher alguém confiável                     |
+| Usuário                  | ver sugestões de serviços                     | encontrar opções de interesse rapidamente     |
 
 ## Requisitos
 
@@ -40,11 +40,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito                                                                 | Prioridade |
-|--------|----------------------------------------------------------------------------------------|------------|
-| RF-001 | A aplicação deve permitir o cadastro de usuários no sistema                          | ALTA       |
+| ID     | Descrição do Requisito                                                                | Prioridade |
+|--------|---------------------------------------------------------------------------------------|------------|
+| RF-001 | A aplicação deve permitir o cadastro de usuários no sistema                           | ALTA       |
 | RF-002 | A aplicação deve permitir login por e-mail e senha                                    | ALTA       |
-| RF-003 | A aplicação deve permitir cadastro de serviços oferecidos pelos usuários             | ALTA       |
+| RF-003 | A aplicação deve permitir cadastro de serviços oferecidos pelos usuários              | ALTA       |
 | RF-004 | A aplicação deve permitir filtragem de serviços por categoria, preço e localização    | ALTA       |
 | RF-005 | A aplicação deve permitir visualização detalhada dos serviços                         | ALTA       |
 | RF-006 | A aplicação deve permitir classificação de serviços entre voluntário e remunerado     | ALTA       |
@@ -55,8 +55,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Não Funcionais
 
-| ID     | Descrição do Requisito                                                                 | Prioridade |
-|--------|----------------------------------------------------------------------------------------|------------|
+| ID      | Descrição do Requisito                                                                | Prioridade |
+|---------|---------------------------------------------------------------------------------------|------------|
 | RNF-001 | A aplicação deve ser responsiva, funcionando em dispositivos móveis e desktop         | ALTA       |
 | RNF-002 | A aplicação deve ter tempo de carregamento otimizado (até 15 segundos por página)     | ALTA       |
 | RNF-003 | A interface deve ser intuitiva e de fácil navegação                                   | ALTA       |
