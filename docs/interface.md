@@ -23,7 +23,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ### Home page - Tela inicial
 
-|![Tela inicial](img/home-page.jpeg)|
+|![Tela inicial](img/home-page.png)|
 |:--------------------------------------------------------------------------------------------:|
 | **Figura 3: Tela Inicial**   
 
