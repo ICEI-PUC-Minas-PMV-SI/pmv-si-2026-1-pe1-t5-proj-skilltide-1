@@ -7,7 +7,6 @@ A construção das interfaces foi guiada pelos requisitos funcionais, não funci
 ## User Flow
 <img width="5680" height="5452" alt="User Flow Skill Tide" src="https://github.com/user-attachments/assets/6b9f5ce9-5e68-4ec7-b218-6615d860ee5b" />
 
-
 ## Wireframes
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface e é fundamental sempre relacionar cada wireframe com o(s) requisito(s) que ele atende.
@@ -30,7 +29,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 | **Componente**               | **Requisitos Atendidos**                                                                 |
 |------------------------------|------------------------------------------------------------------------------------------|
-| **Tela Inicial**              | RF0:	.|
+| **Tela Inicial**              | RF10 Permitir tela inicial intuitiva que mostre sugestões de serviços do interesse do usuário.|
 
 ## Cadastro de Usuário
 
@@ -41,6 +40,38 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 | **Componente**               | **Requisitos Atendidos**                                                                 |
 |------------------------------|------------------------------------------------------------------------------------------|
 | **Cadastro de Usuários**              | RF02: Permitir cadastro de prestadores de serviços.|
+
+## Cadastro de Serviços
+
+|![Cadastro de Serviços](img/cadastro-servicos.jpeg)|
+|:--------------------------------------------------------------------------------------------:|
+| **Figura 5: Cadastro de Serviços**   
+
+| **Componente**               | **Requisitos Atendidos**                                                                 |
+|------------------------------|------------------------------------------------------------------------------------------|
+| **Cadastro de Serviços**              | RF03: Permitir cadastro e descrição de serviços oferecidos. <br> RF06: Permitir classificação entre serviço voluntário e remunerado.|
+
+## Busca de Serviços
+
+|![Busca de Serviços](img/busca-servicos.jpeg)|
+|:--------------------------------------------------------------------------------------------:|
+| **Figura 6: Busca de Serviços**   
+
+| **Componente**               | **Requisitos Atendidos**                                                                 |
+|------------------------------|------------------------------------------------------------------------------------------|
+| **Busca de Serviços**              | RF04: Permitir filtragem por categoria, valor do serviço e localidade. <br> <br> RF05: Permitir visualização detalhada dos serviços. <br> RF08: Permitir solicitação de serviços.|
+
+## Chat de contato entre usuários
+
+|![Chat de contato entre usuários](img/pagina-contato.jpeg)|
+|:--------------------------------------------------------------------------------------------:|
+| **Figura 7: Chat de contato entre usuários**   
+
+| **Componente**               | **Requisitos Atendidos**                                                                 |
+|------------------------------|------------------------------------------------------------------------------------------|
+| **Chat de contato entre usuários**              | RF07: Permitir comunicação entre usuários dentro do sistema.|
+
+
 
 ### Exemplo
 
