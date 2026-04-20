@@ -6,20 +6,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
 
-## Perfis de Usuários
-
-Os perfis de usuários na plataforma são definidos por sua atuação dentro do sistema, podendo atuar como consumidores de serviços, prestadores ou voluntários, dependendo da necessidade e contexto.
-
-| **Dados**                    | **Descrição** |
-|------------------------------|----------------|
-| **Demográficos**             | Jovens e adultos de diferentes idades, incluindo pessoas em situação de vulnerabilidade social, trabalhadores autônomos e estudantes. |
-| **Uso do Produto**           | Utilizam a plataforma para buscar serviços acessíveis, oferecer habilidades profissionais ou atuar como voluntários em demandas sociais e comunitárias. |
-| **Psicográficos**            | Buscam acesso facilitado a serviços, geração de renda, ajuda comunitária e oportunidades de colaboração social. |
-| **Sentimento do Cliente**    | Precisam de soluções acessíveis e confiáveis para resolver problemas do dia a dia, além de oportunidades para divulgar ou oferecer seus serviços. |
-| **Tecnográficos**            | Utilizam principalmente smartphones, mas também podem acessar via desktop ou tablet. |
-| **Nível de conhecimento tecnológico** | Possuem desde conhecimento básico até intermediário em uso de plataformas digitais. |
-| **Necessidades**             | 1. Encontrar serviços acessíveis ou gratuitos. <br>2. Oferecer serviços e habilidades de forma simples. <br>3. Ter confiança e segurança nas transações. <br>4. Avaliar e ser avaliado para gerar credibilidade na plataforma. |
-
 ## Personas
 
 
