@@ -22,6 +22,26 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 |------------------------------|------------------------------------------------------------------------------------------|
 | **Tela de login**              | RF01:	Permitir cadastro de usuários no sistema.|
 
+### Home page - Tela inicial
+
+|![Tela inicial](img/home-page.jpeg)|
+|:--------------------------------------------------------------------------------------------:|
+| **Figura 3: Tela Inicial**   
+
+| **Componente**               | **Requisitos Atendidos**                                                                 |
+|------------------------------|------------------------------------------------------------------------------------------|
+| **Tela Inicial**              | RF0:	.|
+
+## Cadastro de Usuário
+
+|![Cadastro Usuários](img/cadastro-usuario.jpeg)|
+|:--------------------------------------------------------------------------------------------:|
+| **Figura 4: Cadastro de Usuários**   
+
+| **Componente**               | **Requisitos Atendidos**                                                                 |
+|------------------------------|------------------------------------------------------------------------------------------|
+| **Cadastro de Usuários**              | RF02: Permitir cadastro de prestadores de serviços.|
+
 ### Exemplo
 
 A tela inicial apresenta um menu lateral com as principais seções do portal, enquanto a navigation bar, ao topo, apresenta informações de envio de imagens ou navegação pela galeria de fotos. A área central apresenta a galeria de fotos na forma de uma grade. Nesta tela, são apresentados os seguintes requisitos
