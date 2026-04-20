@@ -4,7 +4,7 @@ O projeto utiliza um layout base em HTML e CSS padronizado para todas as página
 
 ## Design
 
-<img width="1537" height="898" alt="Tela inicial" src="https://github.com/user-attachments/assets/7b34ce89-36bb-4d01-815d-65a2bd06cdd1" />
+<![Tela inicial](img/home-page.png)
 Interface baseada em Menu Lateral + Rodapé, com conteúdo central organizado em campo de busca e cards de habilidades.
 
 Logo da Aplicação
