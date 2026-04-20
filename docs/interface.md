@@ -14,7 +14,7 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 ### Tela de login
 
-|![Tela de login](docs/img/tela-login.jpeg)|
+|![Tela de login](img/tela-login.jpeg)|
 |:--------------------------------------------------------------------------------------------:|
 | **Figura 2: Tela de login**   
 
