@@ -1,13 +1,10 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-Explique as guias de estilo utilizadas no seu projeto.
+O projeto utiliza um layout base em HTML e CSS padronizado para todas as páginas da aplicação. Esse template define a identidade visual, contempla princípios de responsividade para diferentes dispositivos e incorpora iconografia funcional com base em bibliotecas modernas.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
-
+<img width="1537" height="898" alt="Tela inicial" src="https://github.com/user-attachments/assets/7b34ce89-36bb-4d01-815d-65a2bd06cdd1" />
 
 ## Cores
 
