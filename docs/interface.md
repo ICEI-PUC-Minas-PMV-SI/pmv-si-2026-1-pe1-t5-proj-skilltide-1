@@ -61,15 +61,26 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 |------------------------------|------------------------------------------------------------------------------------------|
 | **Busca de Serviços**              | RF04: Permitir filtragem por categoria, valor do serviço e localidade. <br> <br> RF05: Permitir visualização detalhada dos serviços. <br> RF08: Permitir solicitação de serviços.|
 
-## Chat de contato entre usuários
+## Busca de Serviços
 
-|![Chat de contato entre usuários](img/pagina-contato.jpeg)|
+|![Busca de Serviços](img/busca-servicos.jpeg)|
 |:--------------------------------------------------------------------------------------------:|
-| **Figura 7: Chat de contato entre usuários**   
+| **Figura 7: Busca de Serviços**   
 
 | **Componente**               | **Requisitos Atendidos**                                                                 |
 |------------------------------|------------------------------------------------------------------------------------------|
-| **Chat de contato entre usuários**              | RF07: Permitir comunicação entre usuários dentro do sistema.|
+| **Busca de Serviços**              | RF04: Permitir filtragem por categoria, valor do serviço e localidade. <br> <br> RF05: Permitir visualização detalhada dos serviços. <br> RF08: Permitir solicitação de serviços.|
+
+
+## Visualização de perfil
+
+|![Chat de contato entre usuários](img/perfil-usuario.png)|
+|:--------------------------------------------------------------------------------------------:|
+| **Figura 8: Visualização de perfil**   
+
+| **Componente**               | **Requisitos Atendidos**                                                                 |
+|------------------------------|------------------------------------------------------------------------------------------|
+| **Visualização de perfil**              | RF09: Permitir a visualização de perfis dos outros usuários da plataforma, incluindo suas habilidades, histórico de serviços prestados, e avaliações.|
 
 
 
