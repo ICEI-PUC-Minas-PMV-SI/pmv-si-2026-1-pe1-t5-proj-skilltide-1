@@ -61,15 +61,15 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 |------------------------------|------------------------------------------------------------------------------------------|
 | **Busca de Serviços**              | RF04: Permitir filtragem por categoria, valor do serviço e localidade. <br> <br> RF05: Permitir visualização detalhada dos serviços. <br> RF08: Permitir solicitação de serviços.|
 
-## Busca de Serviços
+## Chat para usuários
 
-|![Busca de Serviços](img/busca-servicos.jpeg)|
+|![Página de contato](img/pagina-contato.jpeg)|
 |:--------------------------------------------------------------------------------------------:|
-| **Figura 7: Busca de Serviços**   
+| **Figura 7: Chat para usuários**   
 
 | **Componente**               | **Requisitos Atendidos**                                                                 |
 |------------------------------|------------------------------------------------------------------------------------------|
-| **Busca de Serviços**              | RF04: Permitir filtragem por categoria, valor do serviço e localidade. <br> <br> RF05: Permitir visualização detalhada dos serviços. <br> RF08: Permitir solicitação de serviços.|
+| **Página de contato**              | RF07: Permitir comunicação entre usuários do sistema.|
 
 
 ## Visualização de perfil
