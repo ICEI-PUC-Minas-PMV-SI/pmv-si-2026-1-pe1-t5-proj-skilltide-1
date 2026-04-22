@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Skill Tide é um projeto front-end que propõe uma plataforma colaborativa onde usuários podem trocar habilidades entre si. A ideia central é conectar pessoas que desejam aprender algo novo ou contratar algum tipo de serviço específico, com aquelas que têm conhecimento para compartilhar, criando um ambiente de aprendizado mútuo e acessível.
 
 ## Integrantes
 
