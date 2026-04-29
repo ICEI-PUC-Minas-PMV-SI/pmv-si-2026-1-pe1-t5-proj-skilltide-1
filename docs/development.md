@@ -27,13 +27,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |------|------------------------|------------|-----------------|
 |RF01| Permitir cadastro de usuários no sistema | Nome | arquivo.html |
 |RF02| Permitir cadastro de prestadores de serviços  | Nome | arquivo.html |
-|RF03| Permitir cadastro e descrição de serviços oferecidos | José Guilherme | arquivo.html |
+|RF03| Permitir cadastro e descrição de serviços oferecidos | José Guilherme | (rf-03.html)[./etapa-3/rf-03.html] |
 |RF04| Permitir filtragem por categoria, valor do serviço e localidade | Nome | arquivo.html |
 |RF05| Permitir visualização detalhada dos serviços  | Nome | arquivo.html |
 |RF06| Permitir classificação entre serviço voluntário e remunerado | Nome | arquivo.html |
 |RF07| Permitir comunicação entre usuários dentro do sistema | Nome | arquivo.html |
 |RF08| Permitir solicitação de serviços | Nome | arquivo.html |
-|RF09| Permitir a visualização de perfis dos outros usuários da plataforma, incluindo suas habilidades, histórico de serviços prestados, e avaliações | José Guilherme | arquivo.html |
+|RF09| Permitir a visualização de perfis dos outros usuários da plataforma, incluindo suas habilidades, histórico de serviços prestados, e avaliações | José Guilherme | (rf-09.html)[./etapa-3/rf-09.html] |
 |RF10| Permitir tela inicial intuitiva que mostre sugestões de serviços do interesse do usuário | Nome | arquivo.html |
 
 ### Requisitos Não Funcionais
