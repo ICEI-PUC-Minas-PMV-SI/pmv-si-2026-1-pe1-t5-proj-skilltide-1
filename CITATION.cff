@@ -8,9 +8,13 @@ message: >-
   Web da PUC Minas.
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+  - given-names: Gabriel
+    family-names: Costa Inacio Fares
+    email: gabriel.fares@pucminas.br
+    affiliation: PUC Minas
+- given-names: Anderson Fernando
+    family-names: de Souza
+    email: 1652210@sga.pucminas.br
     affiliation: PUC Minas
  - given-names: Roberto Felipe
     family-names: Dias Ferreira da Rocha
