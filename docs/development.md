@@ -34,7 +34,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF07| Permitir comunicação entre usuários dentro do sistema | Victor Fioravante | [rf-07.html](./etapa-3/rf-07.html) |
 |RF08| Permitir solicitação de serviços | Anderson de Souza | arquivo.html |
 |RF09| Permitir a visualização de perfis dos outros usuários da plataforma, incluindo suas habilidades, histórico de serviços prestados, e avaliações | José Guilherme | [rf-09.html](./etapa-3/rf-09.html) |
-|RF10| Permitir tela inicial intuitiva que mostre sugestões de serviços do interesse do usuário | Nome | arquivo.html |
+|RF10| Permitir tela inicial intuitiva que mostre sugestões de serviços do interesse do usuário | Gabriel Costa | arquivo.html |
 
 ### Requisitos Não Funcionais
 
