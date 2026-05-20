@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Skill Tide</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#f5f5f5;
+      color:#222;
+    }
+
+    /* HEADER */
+    header{
+      width:100%;
+      height:70px;
+      background:#fff;
+      border-bottom:1px solid #ddd;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:0 25px;
+      position:fixed;
+      top:0;
+      left:0;
+      z-index:1000;
+    }
+
+    .logo{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-size:22px;
+      font-weight:bold;
+      color:#2563eb;
+    }
+
+    .logo i{
+      font-size:28px;
+    }
+
+    .top-menu{
+      display:flex;
+      align-items:center;
+      gap:25px;
+    }
+
+    .top-menu a{
+      text-decoration:none;
+      color:#444;
+      font-size:14px;
+      display:flex;
+      align-items:center;
+      gap:6px;
+    }
+
+    .login-btn{
+      background:#2563eb;
+      color:#fff !important;
+      padding:10px 18px;
+      border-radius:5px;
+      font-weight:bold;
+    }
+
+    /* LAYOUT */
+    .container{
+      display:flex;
+      margin-top:70px;
+      min-height:calc(100vh - 70px);
+    }
+
+    /* SIDEBAR */
+    .sidebar{
+      width:240px;
+      background:#fff;
+      border-right:1px solid #ddd;
+      padding:20px 15px;
+    }
+
+    .sidebar ul{
+      list-style:none;
+    }
+
+    .sidebar li{
+      margin-bottom:10px;
+    }
+
+    .sidebar a{
+      text-decoration:none;
+      color:#444;
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:12px 15px;
+      border-radius:8px;
+      transition:.3s;
+      font-size:15px;
+    }
+
+    .sidebar a:hover,
+    .sidebar .active{
+      background:#e8f0ff;
+      color:#2563eb;
+    }
+
+    /* CONTENT */
+    .content{
+      flex:1;
+      padding:30px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(260px,1fr));
+      gap:25px;
+    }
+
+    /* CARD */
+    .card{
+      background:#fff;
+      border:1px solid #ddd;
+      border-radius:10px;
+      overflow:hidden;
+      transition:.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-4px);
+      box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    .card-image{
+      height:120px;
+      background:#dbeafe;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#7c3aed;
+      font-size:40px;
+    }
+
+    .card-body{
+      padding:18px;
+    }
+
+    .card h3{
+      font-size:22px;
+      margin-bottom:10px;
+    }
+
+    .author{
+      color:#2563eb;
+      font-size:14px;
+      margin-bottom:8px;
+    }
+
+    .price{
+      font-size:16px;
+      margin-bottom:18px;
+      color:#444;
+    }
+
+    .btn{
+      width:100%;
+      border:none;
+      background:#2563eb;
+      color:#fff;
+      padding:12px;
+      border-radius:6px;
+      cursor:pointer;
+      font-weight:bold;
+      transition:.3s;
+    }
+
+    .btn:hover{
+      background:#1747b8;
+    }
+
+    /* FOOTER */
+    footer{
+      text-align:center;
+      padding:18px;
+      background:#fff;
+      border-top:1px solid #ddd;
+      color:#666;
+      font-size:14px;
+    }
+
+    /* RESPONSIVO */
+    @media(max-width:900px){
+
+      .container{
+        flex-direction:column;
+      }
+
+      .sidebar{
+        width:100%;
+        border-right:none;
+        border-bottom:1px solid #ddd;
+      }
+
+      .sidebar ul{
+        display:flex;
+        gap:10px;
+        overflow:auto;
+      }
+
+      .sidebar li{
+        margin-bottom:0;
+      }
+    }
+
+    @media(max-width:600px){
+
+      header{
+        padding:0 15px;
+      }
+
+      .top-menu{
+        gap:12px;
+      }
+
+      .top-menu a span{
+        display:none;
+      }
+
+      .content{
+        padding:20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+
+    <div class="logo">
+      <i class="fa-solid fa-circle-half-stroke"></i>
+      Skill Tide
+    </div>
+
+    <nav class="top-menu">
+      <a href="#"><i class="fa-solid fa-house"></i> <span>Início</span></a>
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i> <span>Buscar</span></a>
+      <a href="#"><i class="fa-regular fa-message"></i> <span>Mensagens</span></a>
+      <a href="#" class="login-btn">
+        <i class="fa-solid fa-right-to-bracket"></i>
+        Login
+      </a>
+    </nav>
+
+  </header>
+
+  <!-- MAIN -->
+  <div class="container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+      <ul>
+        <li>
+          <a href="#" class="active">
+            <i class="fa-solid fa-house"></i>
+            Início
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fa-regular fa-user"></i>
+            Meu Perfil
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-briefcase"></i>
+            Meus Serviços
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            Buscar Serviços
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fa-regular fa-message"></i>
+            Mensagens
+          </a>
+        </li>
+      </ul>
+
+    </aside>
+
+    <!-- CONTENT -->
+    <main class="content">
+
+      <div class="cards">
+
+        <!-- CARD 1 -->
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <div class="card-body">
+            <h3>Design Gráfico</h3>
+            <div class="author">João Silva</div>
+            <div class="price">R$ 150/hora</div>
+
+            <button class="btn">
+              Solicitar Serviço
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <div class="card-body">
+            <h3>Desenvolvimento Web</h3>
+            <div class="author">Maria Santos</div>
+            <div class="price">R$ 200/hora</div>
+
+            <button class="btn">
+              Solicitar Serviço
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <div class="card-body">
+            <h3>Marketing Digital</h3>
+            <div class="author">Pedro Costa</div>
+            <div class="price">R$ 120/hora</div>
+
+            <button class="btn">
+              Solicitar Serviço
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 4 -->
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <div class="card-body">
+            <h3>Fotografia</h3>
+            <div class="author">Ana Lima</div>
+            <div class="price">R$ 180/hora</div>
+
+            <button class="btn">
+              Solicitar Serviço
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 5 -->
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <div class="card-body">
+            <h3>Consultoria</h3>
+            <div class="author">Carlos Souza</div>
+            <div class="price">R$ 250/hora</div>
+
+            <button class="btn">
+              Solicitar Serviço
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <div class="card-body">
+            <h3>Redação</h3>
+            <div class="author">Juliana Alves</div>
+            <div class="price">R$ 100/hora</div>
+
+            <button class="btn">
+              Solicitar Serviço
+            </button>
+          </div>
+        </div>
+        <!-- CARD 7 -->
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <div class="card-body">
+            <h3>Aula de Guitarra</h3>
+            <div class="author">Thamara Inacio</div>
+            <div class="price">R$ 78/hora</div>
+
+            <button class="btn">
+              Solicitar Serviço
+            </button>
+          </div>
+        </div>
+        <!-- CARD 8 -->
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <div class="card-body">
+            <h3>Montagem de PC</h3>
+            <div class="author">Gustavo Djalma</div>
+            <div class="price">R$ 120/hora</div>
+
+            <button class="btn">
+              Solicitar Serviço
+            </button>
+          </div>
+        </div>
+        <!-- CARD 9 -->
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <div class="card-body">
+            <h3>Coach de LOL</h3>
+            <div class="author">Faker</div>
+            <div class="price">R$ 30/hora</div>
+
+            <button class="btn">
+              Solicitar Serviço
+            </button>
+          </div>
+        </div>
+        <!-- CARD 10 -->
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-solid fa-briefcase"></i>
+          </div>
+
+          <div class="card-body">
+            <h3>Moderador de Stream</h3>
+            <div class="author">Marcelo Santos</div>
+            <div class="price">R$ 30/hora</div>
+
+            <button class="btn">
+              Solicitar Serviço
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+         
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Skill Tide. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
