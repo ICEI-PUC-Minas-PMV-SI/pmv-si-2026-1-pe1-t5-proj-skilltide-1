@@ -26,7 +26,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
 |RF01| Permitir cadastro de usuários no sistema | Victor Fioravante | [rf-01.html](./etapa-3/rf-01.html) |
-|RF02| Permitir cadastro de prestadores de serviços  | Gabriel Costa | arquivo.html |
+|RF02| Permitir cadastro de prestadores de serviços  | Gabriel Costa | [cadastro-prestador.html](./etapa-3/cadastro-prestador.html) |
 |RF03| Permitir cadastro e descrição de serviços oferecidos | José Guilherme | [rf-03.html](./etapa-3/rf-03.html) |
 |RF04| Permitir filtragem por categoria, valor do serviço e localidade | Nome | arquivo.html |
 |RF05| Permitir visualização detalhada dos serviços  | Nome | arquivo.html |
