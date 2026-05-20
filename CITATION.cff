@@ -10,7 +10,7 @@ type: software
 authors:
   - given-names: Gabriel
     family-names: Costa Inacio Fares
-    email: gabriel.fares@pucminas.br
+    email: gabriel.fares@sga.pucminas.br
     affiliation: PUC Minas
 - given-names: Anderson Fernando
     family-names: de Souza
