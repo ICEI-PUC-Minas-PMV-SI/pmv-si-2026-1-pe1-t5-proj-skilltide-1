@@ -28,8 +28,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF01| Permitir cadastro de usuários no sistema | Victor Fioravante | [rf-01.html](./etapa-3/rf-01.html) |
 |RF02| Permitir cadastro de prestadores de serviços  | Gabriel Costa | [cadastro-prestador.html](../src/cadastro-prestador.html) |
 |RF03| Permitir cadastro e descrição de serviços oferecidos | José Guilherme | [rf-03.html](./etapa-3/rf-03.html) |
-|RF04| Permitir filtragem por categoria, valor do serviço e localidade | Ícaro Silva | .[rf-04.html](./filtragem-de-serviços.html)|
-|RF05| Permitir visualização detalhada dos serviços  | Ícaro Silva | .[rf-05.html](./filtragem-de-serviços.html)|
+|RF04| Permitir filtragem por categoria, valor do serviço e localidade | Ícaro Silva | .[rf-04.html](./filtro-de-serviços.html)|
+|RF05| Permitir visualização detalhada dos serviços  | Ícaro Silva | .[rf-05.html](./filtro-de-serviços.html)|
 |RF06| Permitir classificação entre serviço voluntário e remunerado | Anderson de Souza | arquivo.html |
 |RF07| Permitir comunicação entre usuários dentro do sistema | Victor Fioravante | [rf-07.html](./etapa-3/rf-07.html) |
 |RF08| Permitir solicitação de serviços | Anderson de Souza | arquivo.html |
