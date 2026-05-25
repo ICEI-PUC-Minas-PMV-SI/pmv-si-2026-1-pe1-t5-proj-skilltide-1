@@ -8,6 +8,10 @@ message: >-
   Web da PUC Minas.
 type: software
 authors:
+ - given-names: Victor
+    family-names: Fioravante da Silva Barcelos
+    email: victorfioravantebarcelos@gmail.com
+    affiliation: PUC Minas
   - given-names: Gabriel
     family-names: Costa Inacio Fares
     email: gabriel.fares@sga.pucminas.br
