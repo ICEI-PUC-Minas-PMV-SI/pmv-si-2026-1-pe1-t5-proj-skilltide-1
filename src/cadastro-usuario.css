@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#eef4ff;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+
+    width:400px;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+
+    display:flex;
+    flex-direction:column;
+}
+
+h1{
+    color:#2563eb;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+p{
+    text-align:center;
+    margin-bottom:30px;
+    color:#666;
+}
+
+label{
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+input{
+    height:50px;
+
+    padding:0 15px;
+
+    border:1px solid #ccc;
+
+    border-radius:10px;
+
+    margin-bottom:20px;
+
+    outline:none;
+
+    transition:0.3s;
+}
+
+/* Campo inválido */
+
+input:invalid{
+    border:2px solid #ef4444;
+}
+
+/* Campo válido */
+
+input:valid{
+    border:2px solid #22c55e;
+}
+
+button{
+
+    height:50px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+}
