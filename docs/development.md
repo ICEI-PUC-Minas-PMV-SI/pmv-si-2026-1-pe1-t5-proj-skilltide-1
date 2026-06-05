@@ -25,13 +25,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF01| Permitir cadastro de usuários no sistema | Victor Fioravante | [rf-01.html](../src/cadastro-usuario.html) |
+|RF01| Permitir cadastro de usuários no sistema | Victor Fioravante | [cadastro-usuario.html](../src/cadastro-usuario.html) |
 |RF02| Permitir cadastro de prestadores de serviços  | Gabriel Costa | [cadastro-prestador.html](../src/cadastro-prestador.html) |
 |RF03| Permitir cadastro e descrição de serviços oferecidos | José Guilherme | [rf-03.html](./etapa-3/rf-03.html) |
 |RF04| Permitir filtragem por categoria, valor do serviço e localidade | Ícaro Silva | .[rf-04.html](./filtro-de-serviços.html)|
 |RF05| Permitir visualização detalhada dos serviços  | Ícaro Silva | .[rf-05.html](./filtro-de-serviços.html)|
 |RF06| Permitir classificação entre serviço voluntário e remunerado | Anderson de Souza | arquivo.html |
-|RF07| Permitir comunicação entre usuários dentro do sistema | Victor Fioravante | [rf-07.html](../src/chat-usuario.html) |
+|RF07| Permitir comunicação entre usuários dentro do sistema | Victor Fioravante | [chat-usuario.html](../src/chat-usuario.html) |
 |RF08| Permitir solicitação de serviços | Anderson de Souza | arquivo.html |
 |RF09| Permitir a visualização de perfis dos outros usuários da plataforma, incluindo suas habilidades, histórico de serviços prestados, e avaliações | José Guilherme | [rf-09.html](./etapa-3/rf-09.html) |
 |RF10| Permitir tela inicial intuitiva que mostre sugestões de serviços do interesse do usuário | Gabriel Costa | [tela-inicial.html](./etapa-3/tela-inicial.html) |
