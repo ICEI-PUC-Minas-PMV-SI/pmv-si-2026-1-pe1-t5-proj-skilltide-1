@@ -25,6 +25,10 @@ authors:
     name-suffix: Prof.
     email: rocha@pucminas.br
     affiliation: PUC Minas
+- given-names: Ícaro
+    family-names: Rodrigues da Silva
+    email: 1663334@sga.pucminas.br
+    affiliation: PUC Minas
 repository-code: >-
   https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
 abstract: >-
