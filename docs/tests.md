@@ -25,19 +25,11 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Cadastro de prestador de serviçoes**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
-
-**Caso de Teste** | **CT02 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
+**Procedimento**  | 1) Preencher todos os campos do formulário <br> 2) Clique em Cadastrar Perfil <br>.
+**Requisitos associados** | RF-02 - O sistema deve permitir o cadastro de prestadores de serviços na plataforma.
+**Resultado esperado** | Perfil cadastrado com sucesso e dados armazenados pelo sistema.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
@@ -45,20 +37,18 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
+|*Caso de Teste*                                 |*CT01 - Cadastro de prestador de serviços*                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
-
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
-|---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-02 - O sistema deve permitir o cadastro de prestadores de serviços na plataforma.|
+|Link do vídeo do teste realizado: |https://1drv.ms/v/c/a0f86e8cf89d847a/IQAEi3b-r6qTS7OhMG1fp8qSAbdVkwFwLt-0sVfN7wp5Px0?e=1IeZY0| 
 
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Avaliação dos Testes de Software
+
+O teste executado confirmou o funcionamento correto da funcionalidade de cadastro de prestadores de serviços. Os dados foram validados adequadamente e armazenados conforme esperado. Não foram identificadas falhas durante a execução do teste. Como melhoria futura, podem ser implementadas validações mais avançadas e integração com banco de dados para armazenamento permanente das informações.
+
 
 ## Testes de unidade automatizados (Opcional)
 
