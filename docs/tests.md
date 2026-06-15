@@ -85,54 +85,38 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa que deseja oferecer seus conhecimentos e serviços na plataforma Skill Tide. Realize o cadastro de prestador de serviços preenchendo todas as informações solicitadas no formulário. |
+| 2             | Você é uma pessoa que deseja divulgar suas habilidades profissionais na plataforma. Preencha o formulário de cadastro com seus dados pessoais e área de atuação e conclua o cadastro com sucesso. |
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é uma pessoa que deseja oferecer seus conhecimentos e serviços na plataforma Skill Tide. Realize o cadastro de prestador de serviços preenchendo todas as informações solicitadas no formulário.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 35 segundos                  |
+| 2       | SIM             | 4                    | 42 segundos                  |
+| 3       | SIM             | 5                    | 31 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 4,7                | 36 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 18 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: O formulário apresentou boa organização e os campos estavam fáceis de identificar.
+    O processo de cadastro foi simples e intuitivo.
 
-
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
-
-
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Os testes de usabilidade realizados com a funcionalidade de cadastro de prestadores de serviços da plataforma Skill Tide demonstraram que os usuários conseguiram concluir as tarefas propostas com facilidade.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+De forma geral, a interface foi considerada intuitiva, com boa organização dos campos e clareza nas informações apresentadas. Todos os participantes conseguiram realizar o cadastro com sucesso, apresentando alta taxa de sucesso (100%) e boa satisfação subjetiva.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+Como ponto positivo, destaca-se a simplicidade do formulário e a facilidade de compreensão dos campos obrigatórios. Como melhoria futura, sugere-se a implementação de máscaras automáticas para CPF e telefone, além de validações mais avançadas para melhorar ainda mais a experiência do usuário.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+Não foram identificados problemas críticos de usabilidade durante a execução dos testes.
 
 
 
